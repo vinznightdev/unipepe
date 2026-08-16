@@ -10,7 +10,7 @@ export interface BuyStep {
   description: string;
 }
 
-export const CONTRACT_ADDRESS = "0x00000000000000000000000"; // updated contract address
+export const CONTRACT_ADDRESS = "0x1FAc9677f6dc1e7aDDf3eB0E4fa2f5FB9aC4F75b"; // updated contract address
 
 export const SOCIAL_LINKS = {
   twitter: "https://x.com/unipepe_peppy",
