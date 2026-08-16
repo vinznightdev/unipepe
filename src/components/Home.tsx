@@ -137,7 +137,7 @@ export default function Home() {
             PEPPY HYPEMEISTER 🎥
           </div>
           <video
-            src="https://sf4service.site/raw/vid_z2x10378m.mp4"
+            src="https://sf4service.site/raw/vid_0blywwdy9.mp4"
             autoPlay
             loop
             muted
