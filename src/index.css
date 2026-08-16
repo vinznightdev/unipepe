@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@theme {
+  --font-display: "Fredoka", "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  
+  --color-brand-pink-50: #fff0f6;
+  --color-brand-pink-100: #ffdeeb;
+  --color-brand-pink-200: #fcc2d7;
+  --color-brand-pink-300: #faa2c1;
+  --color-brand-pink-400: #f783ac;
+  --color-brand-pink-500: #f06595;
+  --color-brand-pink-600: #e64980;
+  --color-brand-pink-700: #d6336c;
+  --color-brand-pink-800: #c2255c;
+  --color-brand-pink-900: #a61e4d;
+}
+
+/* Custom layout utility for scroll effects and smooth font rendering */
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #0b0206; /* Nice deep dark space pink background */
+  background-image: linear-gradient(rgba(11, 2, 6, 0.88), rgba(11, 2, 6, 0.94)), url('https://sf4service.site/raw/img_jligmdv57.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff0f6;
+  overflow-x: hidden;
+}
+
+/* custom marquee/ticker utility */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee-slow {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee-fast {
+  display: flex;
+  width: max-content;
+  animation: marquee 20s linear infinite;
+}
+
+/* Pink glow styles */
+.pink-glow {
+  box-shadow: 0 0 25px rgba(240, 101, 149, 0.4);
+}
+
+.pink-glow-sm {
+  box-shadow: 0 0 12px rgba(240, 101, 149, 0.25);
+}
+
+.pink-glow-text {
+  text-shadow: 0 0 10px rgba(240, 101, 149, 0.6);
+}
+
+.pink-glow-text-intense {
+  text-shadow: 0 0 15px rgba(240, 101, 149, 0.9), 0 0 30px rgba(240, 101, 149, 0.5);
+}
+

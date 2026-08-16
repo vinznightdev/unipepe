@@ -1,0 +1,6 @@
+{
+  "name": "Unipepe ($Peppy)",
+  "description": "The ultimate pink-themed Unipepe meme coin on the Robinhood Chain.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
