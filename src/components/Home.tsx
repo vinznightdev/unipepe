@@ -79,8 +79,16 @@ export default function Home() {
         </div>
 
         {/* Short, high impact description */}
-        <p className="max-w-2xl text-sm sm:text-lg md:text-xl text-brand-pink-100/90 leading-relaxed mb-8 font-medium px-2">
-          The most magical unicorn-froggo hybrid in the cosmos. Formed from the cosmic pink dust of the Robinhood Chain, <span className="text-brand-pink-300 font-bold">Unipepe</span> is here to unite the memers, pump the chart, and rule the pond!
+        <p className="max-w-2xl text-sm sm:text-base md:text-lg text-brand-pink-100/90 leading-relaxed mb-8 font-medium px-4 whitespace-pre-line text-left sm:text-center">
+          Peppy the Unicorn Pepe is here.
+          {"\n\n"}
+          While everyone else is still chasing the next meme, Peppy already claimed the throne. This isn’t just another frog. This is Unipepe — pure pink magic, unicorn energy, and that signature smug face that says “I already won.” Soft, cute, and dangerously based at the same time.
+          {"\n\n"}
+          The community is growing fast. The vibe is unmatched. The culture is forming in real time. Early holders are already smiling that quiet smile.
+          {"\n\n"}
+          You can wait and watch… or you can get in while Peppy is still early. Miss this and you’ll be explaining to yourself later why you didn’t move when it was obvious.
+          {"\n\n"}
+          Peppy doesn’t wait. Neither should you.
         </p>
 
         {/* Call to Actions */}

@@ -6,6 +6,7 @@ import { SOCIAL_LINKS } from "./types";
 // Import Sections
 import Home from "./components/Home";
 import Tokenomics from "./components/Tokenomics";
+import MemeGallery from "./components/MemeGallery";
 import DexscreenerChart from "./components/DexscreenerChart";
 import HowToBuy from "./components/HowToBuy";
 import Footer from "./components/Footer";
@@ -78,7 +79,7 @@ export default function App() {
       setShowScrollTop(window.scrollY > 500);
 
       // 3. Highlight current section in nav
-      const sections = ["home", "tokenomics", "dexscreener-live-chart", "how-to-buy"];
+      const sections = ["home", "tokenomics", "gallery", "dexscreener-live-chart", "how-to-buy"];
       const scrollPos = window.scrollY + 120;
 
       for (const section of sections) {
@@ -165,6 +166,7 @@ export default function App() {
   const navItems = [
     { id: "home", label: "Home" },
     { id: "tokenomics", label: "Tokenomics" },
+    { id: "gallery", label: "Gallery" },
     { id: "dexscreener-live-chart", label: "Live Chart" },
     { id: "how-to-buy", label: "How to Buy" }
   ];
@@ -314,6 +316,7 @@ export default function App() {
       <main className="flex-grow">
         <Home />
         <Tokenomics />
+        <MemeGallery />
         <DexscreenerChart />
         <HowToBuy />
       </main>
