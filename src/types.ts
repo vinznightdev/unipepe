@@ -13,8 +13,8 @@ export interface BuyStep {
 export const CONTRACT_ADDRESS = "0x1FAc9677f6dc1e7aDDf3eB0E4fa2f5FB9aC4F75b"; // updated contract address
 
 export const SOCIAL_LINKS = {
-  twitter: "https://x.com/unipepe_peppy",
-  telegram: "https://t.me/unipepe_peppy",
+  twitter: "https://x.com/Peppytheunipepe",
+  telegram: "https://t.me/Peppytheunipepe",
   dexscreener: "https://dexscreener.com",
   uniswap: "https://uniswap.org",
   robinhood: "https://robinhood.com/wallet",
